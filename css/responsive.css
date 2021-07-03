@@ -181,4 +181,8 @@
     .resume-section .award .award-inner .title h2{
         padding-left: 40px;
     }
+        .contact-section .title h2{
+        font-size: 22px;
+        padding: 0 20px;
+    }
 }
