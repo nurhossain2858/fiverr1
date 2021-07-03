@@ -1,0 +1,184 @@
+@media (max-width: 1199px){
+    .header .logo{
+        margin-left: 20px;
+    }
+    .section-title h2,
+    .home-section .home-text h1{
+        font-size: 80px;
+    }
+    .home-section .home-text{
+        padding-left: 20px;
+    }
+    .home-section .home-img img{
+        width: 700px;
+    }
+    .header .nav ul li:last-child{
+        margin-right: 20px;
+    }
+}
+@media (max-width: 991px){
+    .header .logo{
+        margin-left: 20px;
+    }
+    .header .nav-toggler{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-right: 20px;
+    }
+    .header .nav{
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 20px;
+        background-color: var(--navy-900);
+        display: none;
+    }
+    .header .nav ul li{
+        display: block;
+        margin-left: 20px;
+        line-height: 2;
+    }
+    .rating-section .rating-img,
+    .home-section .home-text, .home-section .home-img{
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .home-section .home-img{
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+    }
+    .blog-section .blog-item,
+    .portfolio-section .portfolio-item,
+    .rating-section .rating-item,
+    .services-section .service-item{
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .rating-section .rating-img{
+        padding: 100px;
+    }
+    .rating-section .rating-img .img-box{
+        padding: 50px 50px 0 50px;
+    }
+    .rating-section .rating-img .shape.shape1{
+        top: 50px;
+        left: 50px;
+    }
+    .rating-section .rating-img .shape.shape2{
+        bottom: 50px;
+        right: 50px;
+    }
+    .resume-section .award .award-inner .award-item,
+    .resume-section .skill, .resume-section .education-experience,
+    .rating-section .rating-info{
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        max-width: 100%;
+        padding: 20px;
+    }
+    .rating-section .rating-info{
+        padding: 20px;
+    }
+    .portfolio-section .portfolio-filter{
+        text-align: center;
+    }
+    .contact-section .contact-info,
+    .contact-section .contact-form .input-group .input-control,
+    .contact-section .contact-form{
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .contact-section .contact-info{
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+    }
+}
+@media (max-width: 767px){
+    .section-title h2,
+    .home-section .home-text h1{
+        font-size: 60px;
+    }
+    .home-section .home-img img{
+        width: 100%;
+    }
+}
+@media (max-width: 575px){
+    .home-section .home-text{
+        padding-left: 0;
+    }
+    .home-section .home-text .btn-1{
+        display: block;
+        width: 70%;
+        margin: auto;
+    }
+    .home-section .home-text .btn-2{
+        display: block;
+        width: 70%;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .blog-section .blog-item,
+    .portfolio-section .portfolio-item,
+    .resume-section .award .award-inner .award-item .award-item-inner .text,
+    .resume-section .skill .rounded-progress-main .circle-main,
+    .rating-section .rating-info .contact-info .contact-info-item,
+    .rating-section .rating-item,
+    .services-section .service-item{
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .rating-section .rating-img{
+        padding: 20px;
+    }
+    .rating-section .rating-img .shape.shape1{
+        left: 10px;
+        top: 10px;
+    }
+    .rating-section .rating-img .shape.shape2{
+        bottom: 10px;
+        right: 10px;
+    }
+    .rating-section .rating-info h2{
+        font-size: 30px;
+    }
+    .rating-section .rating-info h3{
+        font-size: 20px;
+    }
+    .rating-section .rating-img .shape{
+        height: 100px;
+        width: 100px;
+    }
+    .resume-section .skill .rounded-progress-main .circle-main{
+        margin-bottom: 40px;
+    }
+    .resume-section .award .award-inner{
+        padding: 10px;
+    }
+    .resume-section .award .award-inner .award-item .award-item-inner .icon{
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 20%;
+                flex: 0 0 20%;
+        max-width: 20%;
+        margin-bottom: 15px;
+    }
+    .resume-section .award .award-inner .award-item .award-item-inner .text{
+        padding: 5px 0;
+    }
+    .resume-section .award .award-inner .title h2{
+        padding-left: 40px;
+    }
+}
